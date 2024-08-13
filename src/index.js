@@ -1,9 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import ReactDOM from 'react-dom/client';
 
-import Bufferbloat from 'bufferbloat';
 import Reactsume from './Reactsume';
+// Reactsume need 2 things: the resume data and a theme
+// Here we load the theme
+import Bufferbloat from 'reactsume-theme-bufferbloat';
 
+// Here we load the resume from the local repo
+// Could also be en external json file or a Github Gist
 const json_data = './resume.json';
 const loadResumeData = async () => {
     try {
@@ -29,7 +33,7 @@ const App = () => {
   if (data === undefined)
       return <div>Error loading resume data</div>;
 
-  return <Reactsume data={data} theme={Bufferbloat} pdf={pdf} />;
+  return <Reactsume data={data} theme={Bufferbloat} />;
 };
 
 ReactDOM.createRoot(

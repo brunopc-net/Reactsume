@@ -25,7 +25,7 @@ const Resume = ({ data, theme: Theme, lang }) => {
     );
 };
 
-const Reactsume = ({resumeData, theme}) => {
+const Reactsume = ({data, theme}) => {
     const [initialRoute, setInitialRoute] = useState(null);
 
     useEffect(() => {
@@ -40,8 +40,8 @@ const Reactsume = ({resumeData, theme}) => {
             <Routes>
                 <Route>
                     <Route path="/" element={<Navigate to={initialRoute} replace />} />
-                    <Route path="/fr" element={<Resume data={resumeData} theme={theme} lang="fr" />} />
-                    <Route path="/en" element={<Resume data={resumeData} theme={theme} lang="en" />} />
+                    <Route path="/fr" element={<Resume data={data} theme={theme} lang="fr" />} />
+                    <Route path="/en" element={<Resume data={data} theme={theme} lang="en" />} />
                 </Route>
             </Routes>
         </Router>
