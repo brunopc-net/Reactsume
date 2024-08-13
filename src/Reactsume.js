@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
-
 import DocumentMeta from 'react-document-meta';
+
+const downloadFilename = 'brunopc_cv.pdf';
 
 const Resume = ({ data, theme: Theme, lang }) => {
     const meta = {
@@ -14,7 +15,7 @@ const Resume = ({ data, theme: Theme, lang }) => {
         // If pdf exists, setting the pdf file url to pass to the Theme
         const pdfFile = `/resume-${lang}.pdf`;
         fetch(`.${pdfFile}`).then((response) => response.ok &&
-            setPdf({ fileUrl: pdfFile, fileName: 'brunopc_cv.pdf' })
+            setPdf({ fileUrl: pdfFile, fileName: downloadFilename })
         )
     }, []);
 
@@ -26,22 +27,23 @@ const Resume = ({ data, theme: Theme, lang }) => {
 };
 
 const Reactsume = ({data, theme}) => {
-    const [initialRoute, setInitialRoute] = useState(null);
+    const [redirectedLang, setRedirectedLang] = useState(null);
 
     useEffect(() => {
         // Determine the user's preferred language
-        const userLang = navigator.language || navigator.userLanguage;
-        const lang = userLang.startsWith('fr') ? 'fr' : 'en';
-        setInitialRoute(`/${lang}`);
+        const browserLang = (navigator.language || navigator.userLanguage).substring(0, 2);
+        // If browser lang exist in resume, this will be the default language
+        setRedirectedLang(data.basics.label[browserLang] ? browserLang : 'en');
     }, []);
 
-    return (
+    return redirectedLang && (
         <Router>
             <Routes>
                 <Route>
-                    <Route path="/" element={<Navigate to={initialRoute} replace />} />
-                    <Route path="/fr" element={<Resume data={data} theme={theme} lang="fr" />} />
-                    <Route path="/en" element={<Resume data={data} theme={theme} lang="en" />} />
+                    <Route path="/" element={<Navigate to={`/${redirectedLang}`} replace />} />
+                    {Object.keys(data.basics.label).map( lang =>
+                        <Route key={lang} path={`/${lang}`} element={<Resume data={data} theme={theme} lang={lang} />} />
+                    )}
                 </Route>
             </Routes>
         </Router>
