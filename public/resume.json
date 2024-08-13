@@ -1,0 +1,1343 @@
+{
+   "basics": {
+      "name": "Bruno Pettersen-Coulombe",
+      "image": "https://media.licdn.com/dms/image/v2/D4E03AQEmf856dXNHvA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1723578219089?e=1729123200&v=beta&t=Yc9nmZBIURhQwy_H9dsRsecxdXK3yIMLuOmr1eqpBqk",
+      "title": {
+         "en": "B.Eng.",
+         "fr": "B.Ing."
+      },
+      "label": {
+         "en": "Full Stack Developer, DevOps & QA expert",
+         "fr": "Développeur fullstack, expert DevOps & QA"
+      },
+      "experience": "11+",
+      "summary": {
+         "en": "Entrepreneurial background, world record holder. Passionate about efficiency, optimization, business value & continuous learning.",
+         "fr": "Antécédents entreprenariaux, recordman du monde. Passionné par l'efficience, l'optimisation, la valeur d'affaire et l'apprentissage."
+      },
+      "location": {
+         "city": "Montréal",
+         "countryCode": "CA"
+      },
+      "contact": {
+         "email": "work@brunopc.net",
+         "website": "https://brunopc.net"
+      },
+      "profiles": [
+         {
+            "network": "github",
+            "username": "brunopc-net",
+            "url": "https://github.com/brunopc-net"
+         },
+         {
+            "network": "linkedin",
+            "username": "brunopc",
+            "url": "https://www.linkedin.com/in/brunopc"
+         },
+         {
+            "network": "twitter",
+            "username": "brunopc_net",
+            "url": "https://twitter.com/brunopc_net"
+         }
+      ]
+   },
+   "languages": [
+      {
+         "language": "Français",
+         "fluency": {
+            "en": "Native speaker",
+            "fr": "Langue maternelle"
+         }
+      },
+      {
+         "language": "English",
+         "fluency": {
+            "en": "Fluent",
+            "fr": "Avancé"
+         }
+      },
+      {
+         "language": "Español",
+         "fluency": {
+            "en": "Beginner",
+            "fr": "Débutant"
+         }
+      }
+   ],
+   "work": [
+      {
+         "position": "Backend Tech Lead",
+         "type": {
+            "en": "Consulting contract",
+            "fr": "Mandat de consultant"
+         },
+         "client": {
+            "name": "Rona",
+            "url": "https://www.rona.ca/"
+         },
+         "employer": {
+            "name": "Levio",
+            "url": "https://levio.ca/"
+         },
+         "startDate": "2024-02",
+         "endDate": "2024-07",
+         "summary": {
+            "en": "Building of 4 microservices with Spring Boot for Selling-Tools project",
+            "fr": "Écriture de 4 microservices avec Spring Boot pour l'équipe Selling-Tools"
+         },
+         "highlights": [
+            {
+               "en": "Built 4 microservices: Customer-ms (handling of Rona customers), Quotes-ms (handling of custom quotes), RRS (a product data reference service), Message-Receiver (a Tibco Queue client to handle quotes updates)",
+               "fr": "Dévelopement de 4 microservices: Customer-ms (gestion des clients), Quotes-ms (gestions des estimations), RRS (référencement de produits), Message-Receiver (client Tibco pour gérer les mises à jours des estimés)"
+            },
+            {
+               "en": "Designed & implemented 300+ Cucumber scenarios/tests for all services",
+               "fr": "Çoncu et implémenté 300+ tests Cucumber pour ces services"
+            },
+            {
+               "en": "Secured services with API key authorization, Token appId authentication, XSS & Content Security Policy (CSP) protections",
+               "fr": "Sécurisés les service avec clef API (authorisation), Token (authentification), protections XSS & Content Security Policy (CSP)"
+            }
+         ],
+         "skills": [
+            {
+               "name": "Backend",
+               "keywords": [
+                  "Spring Boot",
+                  "Java",
+                  "Tibco"
+               ]
+            },
+            {
+               "name": "Backend QA",
+               "keywords": [
+                  "Cucumber",
+                  "JUnit",
+                  "Mockito"
+               ]
+            },
+            {
+               "name": "DevOps",
+               "keywords": [
+                  "Docker",
+                  "CI/CD",
+                  "GitLab pipelines",
+                  "ELK stack"
+               ]
+            },
+            {
+               "name": "Databases",
+               "keywords": [
+                  "PostgreSQL",
+                  "Flyway",
+                  "H2",
+                  "NoSQL"
+               ]
+            },
+            {
+               "name": "Tools/Frameworks",
+               "keywords": [
+                  "OpenAPI/Swagger",
+                  "Postman",
+                  "Jira"
+               ]
+            },
+            {
+               "name": "Package managers",
+               "keywords": [
+                  "Maven",
+                  "Gradle"
+               ]
+            },
+            {
+               "name": "IDE",
+               "keywords": [
+                  "IntelliJ"
+               ]
+            },
+            {
+               "name": "Version control",
+               "keywords": [
+                  "Git",
+                  "GitLab"
+               ]
+            }
+         ],
+         "experience": {
+            "months": 6,
+            "years": 0.5
+         }
+      },
+      {
+         "position": {
+            "en": "DevOps Developer",
+            "fr": "Développeur DevOps"
+         },
+         "type": {
+            "en": "Consulting contract",
+            "fr": "Mandat de consultant"
+         },
+         "employer": {
+            "name": "Levio",
+            "url": "https://levio.ca/"
+         },
+         "client": {
+            "name": "Rona",
+            "url": "https://www.rona.ca/"
+         },
+         "startDate": "2023-10",
+         "endDate": "2024-01",
+         "summary": {
+            "en": "Implementing the 5 GitLab pipelines (Maven, Gradle, Yarn, Npm & Go Module) for Rona development teams.",
+            "fr": "Implémenté les 5 pipelines Rona (Maven, Gradle, Yarn, Npm & Go Module) pour les équipes de développement"
+         },
+         "highlights": [
+            {
+               "en": "Implemented 6 of the 23 steps for each pipeline, including DAST security & OWASP dependency scanning, Wiremock stubbing capabilities (Maven/Gradle) via Helm, Cypress for frontend testing (Npm/Yarn)",
+               "fr": "Implémenté 6 des 23 étapes pour chaque pipeline, incluant les analyses de sécurité DAST & OWASP, Wiremock pour les tests automatisés (Maven/Gradle) à l'aide de Helm, Cypress pour les tests frontend (Npm/Yarn)"
+            },
+            {
+               "en": "Documented and assisted the team for the Vault HA upgrade",
+               "fr": "Documenté et assisté pour la mise à niveau de Vault en mode haute disponibilité (HA)"
+            }
+         ],
+         "skills": [
+            {
+               "name": "DevOps",
+               "keywords": [
+                  "CI/CD",
+                  "GitLab pipelines",
+                  "Docker",
+                  "Helm",
+                  "Kubernetes",
+                  "Vault"
+               ]
+            },
+            {
+               "name": "Backend QA",
+               "keywords": [
+                  "Wiremock"
+               ]
+            },
+            {
+               "name": "Frontend QA",
+               "keywords": [
+                  "Cypress"
+               ]
+            },
+            {
+               "name": "Scripting",
+               "keywords": [
+                  "Bash"
+               ]
+            },
+            {
+               "name": "Tools/Frameworks",
+               "keywords": [
+                  "OpenAPI/Swagger",
+                  "Jira"
+               ]
+            },
+            {
+               "name": "Package managers",
+               "keywords": [
+                  "Maven",
+                  "Gradle",
+                  "Npm",
+                  "Yarn"
+               ]
+            },
+            {
+               "name": "IDE",
+               "keywords": [
+                  "Visual Studio Code"
+               ]
+            },
+            {
+               "name": "Version control",
+               "keywords": [
+                  "Git",
+                  "GitLab"
+               ]
+            },
+            {
+               "name": "Tools/Frameworks",
+               "keywords": [
+                  "JFrog"
+               ]
+            }
+         ],
+         "experience": {
+            "months": 4,
+            "years": 0.5
+         }
+      },
+      {
+         "position": "SDET Tech Lead",
+         "type": {
+            "en": "Consulting contract",
+            "fr": "Mandat de consultant"
+         },
+         "employer": {
+            "name": "Levio",
+            "url": "https://levio.ca/"
+         },
+         "client": {
+            "en": "National Bank of Canada",
+            "fr": "Banque Nationale du Canada",
+            "url": "https://www.nbc.ca/"
+         },
+         "startDate": "2020-10",
+         "endDate": "2023-06",
+         "summary": {
+            "en": "Automated integration tests for PaymentHubs (Swift payment backend) and ICOP - a financial transaction security application.",
+            "fr": "Automatisé les tests d'intégration de PaymentHubs (backend des paiements Swift) et ICOP - validation de sécurité des transactions"
+         },
+         "highlights": [
+            {
+               "en": "ICOP: Improved the test velocity 800x by developing ~200 tests using Selenium & REST Assured, automating execution with Jenkins",
+               "fr": "ICOP: Multiplié la vitesse des tests par 800 en développant ~200 tests Selenium & REST Assured, autimatisant l'exécution avec Jenkins"
+            },
+            {
+               "en": "PaymentHub: Reduced code by 85% after building a new multi-JAR testing framework from scratch using Unirest, Lombok, Jackson, Prowide Software libraries, object inheritance, dependency injection, Gherkin, Fail-fast principle and detailed logs",
+               "fr": "PaymentHub: Réduit le code de 85% pour les tests automatisés après avoir construit un nouveau framework de test multi-JAR."
+            },
+            {
+               "en": "Trained ~30 people within multiple QA teams on good Software architecture & test principles. Documented pipeline execution, code structure and maintenance guidance",
+               "fr": "Formé ~30 employés de plusieurs équipes différentes sur l'architechture logicielle/de test efficiente. Documenté les pipelines d'exécution, la structure de code et le guide de maintenance."
+            }
+         ],
+         "skills": [
+            {
+               "name": "Backend QA",
+               "keywords": [
+                  "JUnit",
+                  "REST Assured"
+               ]
+            },
+            {
+               "name": "Frontend QA",
+               "keywords": [
+                  "HtmlUnit",
+                  "Selenium",
+                  "Saucelabs"
+               ]
+            },
+            {
+               "name": "Backend",
+               "keywords": [
+                  "Java",
+                  "Kafka",
+                  "MQ"
+               ]
+            },
+            {
+               "name": "DevOps",
+               "keywords": [
+                  "CI/CD",
+                  "Jenkins",
+                  "Vault"
+               ]
+            },
+            {
+               "name": "Scripting",
+               "keywords": [
+                  "Bash"
+               ]
+            },
+            {
+               "name": "Tools/Frameworks",
+               "keywords": [
+                  "Jira",
+                  "Xray",
+                  "Camunda",
+                  "Postman"
+               ]
+            },
+            {
+               "name": "Package managers",
+               "keywords": [
+                  "Maven"
+               ]
+            },
+            {
+               "name": "Version control",
+               "keywords": [
+                  "Git",
+                  "Bitbucket"
+               ]
+            },
+            {
+               "name": "IDE",
+               "keywords": [
+                  "IntelliJ"
+               ]
+            },
+            {
+               "name": "Tools/Frameworks",
+               "keywords": [
+                  "Nexus"
+               ]
+            }
+         ],
+         "experience": {
+            "months": 33,
+            "years": 3
+         }
+      },
+      {
+         "position": {
+            "en": "DevOps Developer",
+            "fr": "Développeur DevOps"
+         },
+         "type": "contract/permanent",
+         "employer": {
+            "name": "Société Générale",
+            "url": "https://www.societegenerale.com/"
+         },
+         "startDate": "2016-08",
+         "endDate": "2020-09",
+         "summary": {
+            "en": "CGI consultant, then recruited as a permanent employee. My job was to improve production stability by automating as much as possible.",
+            "fr": "Consultant CGI, puis recruté comme employé permanent. Mon travail était d'améliorer la stabilité de la production en automatisant le plus possible."
+         },
+         "highlights": [
+            {
+               "en": "Deployed an ELK based monitoring solution for 2,000 Autosys processes, multiples pods & software logs",
+               "fr": "Déployé une solution de surveillance basé sur ELK pour 2,000 processus Autosys, fichiers journaux (logs) et multiples pods."
+            },
+            {
+               "en": "Developed ~25 scripts (bash, PowerShell) to automatize monitoring checks, recurring production failures fixes, and improve investigation time (Do-nothing scripts)",
+               "fr": "Développé ~25 scripts (bash, PowerShell) pour automatiser certaines tâches de surveillance, régler des incidents de productions de façon automatique et améliorer le temps d'analyse des pannes (Do-nothing scripts)"
+            },
+            {
+               "en": "Simplified by a factor of 10x the code for report production resulting in reduced maintenance overhead by developing a configurable report producer using Groovy and Autosys",
+               "fr": "Simplifier par un facteur de 10x le code pour la production de rapports afin de diminuer le temps de maintenance en développant un producteur de rapport unique en Groovy"
+            }
+         ],
+         "skills": [
+            {
+               "name": "Backend",
+               "keywords": [
+                  "Java",
+                  "Groovy"
+               ]
+            },
+            {
+               "name": "Backend QA",
+               "keywords": [
+                  "Spock"
+               ]
+            },
+            {
+               "name": "DevOps",
+               "keywords": [
+                  "ELK stack",
+                  "AutoSys Workload Automation"
+               ]
+            },
+            {
+               "name": "Scripting",
+               "keywords": [
+                  "PowerShell"
+               ]
+            },
+            {
+               "name": "Databases",
+               "keywords": [
+                  "SQL Server",
+                  "Oracle",
+                  "NoSQL"
+               ]
+            },
+            {
+               "name": "Package managers",
+               "keywords": [
+                  "Gradle"
+               ]
+            },
+            {
+               "name": "Version control",
+               "keywords": [
+                  "Git",
+                  "GitHub"
+               ]
+            },
+            {
+               "name": "IDE",
+               "keywords": [
+                  "IntelliJ"
+               ]
+            },
+            {
+               "name": "Tools/Frameworks",
+               "keywords": [
+                  "Nexus"
+               ]
+            }
+         ],
+         "experience": {
+            "months": 50,
+            "years": 4
+         }
+      },
+      {
+         "position": {
+            "en": "Software Developer",
+            "fr": "Développeur Logiciel"
+         },
+         "type": {
+            "en": "internship",
+            "fr": "stage"
+         },
+         "employer": {
+            "name": "Constellio",
+            "url": "https://www.constellio.com/"
+         },
+         "startDate": "2014-09",
+         "endDate": "2015-04",
+         "summary": {
+            "en": "Constellio's flagship product was an intranet search application build on Lucene. I built a modular JavaScript web client for that product.",
+            "fr": "Le produit principal de Constellio était un moteur de recherche interne basé sur Apache Lucene. Construit un client web modulaire en JavaScript pour ce moteur de recherche afin qu'il puisse être intégré dans n'importe quel site web."
+         },
+         "highlights": [
+            {
+               "en": "Deployed on the Government du Québec website, sucessfully handling 100,000+ requests/day",
+               "fr": "Déployé sur le site du Gouvernement du Québec, gérant avec succès plus de 100 000 requête/jour"
+            },
+            {
+               "en": "Developed frontend unit tests for the web client (QUnit) and backend unit tests for Constellio (Mockito and JUnit)",
+               "fr": "Développé les tests frontend pour le client web (QUnit), ainsi que des tests unitaires backend avec Mockito/JUnit"
+            }
+         ],
+         "skills": [
+            {
+               "name": "Frontend",
+               "keywords": [
+                  "JavaScript",
+                  "jQuery",
+                  "CSS"
+               ]
+            },
+            {
+               "name": "Frontend QA",
+               "keywords": [
+                  "QUnit",
+                  "Selenium"
+               ]
+            },
+            {
+               "name": "Backend",
+               "keywords": [
+                  "Java"
+               ]
+            },
+            {
+               "name": "Backend QA",
+               "keywords": [
+                  "Mockito",
+                  "JUnit"
+               ]
+            },
+            {
+               "name": "IDE",
+               "keywords": [
+                  "IntelliJ"
+               ]
+            },
+            {
+               "name": "Version control",
+               "keywords": [
+                  "Git",
+                  "GitHub"
+               ]
+            }
+         ],
+         "experience": {
+            "months": 8,
+            "years": 0.5
+         }
+      },
+      {
+         "position": {
+            "en": "Software Developer",
+            "fr": "Développeur Logiciel"
+         },
+         "type": {
+            "en": "internship",
+            "fr": "stage"
+         },
+         "employer": {
+            "name": "Equisoft",
+            "url": "https://www.constellio.com/"
+         },
+         "startDate": "2013-01",
+         "endDate": "2013-05",
+         "summary": {
+            "en": "Database migration for the software Publisher Elements to Entity Framework ORM, automated email bug corrections, general maintenance. SCRUM development with JIRA project management software",
+            "fr": "Migration des DAO classiques à l'ORM Entity Framework, corrections de bugs pour l'envoit des courriels automatisés, maintenance générale."
+         },
+         "skills": [
+            {
+               "name": "Backend",
+               "keywords": [
+                  "C#"
+               ]
+            },
+            {
+               "name": "IDE",
+               "keywords": [
+                  "Visual Studio"
+               ]
+            },
+            {
+               "name": "Tools/Frameworks",
+               "keywords": [
+                  "Jira"
+               ]
+            }
+         ],
+         "experience": {
+            "months": 5,
+            "years": 0.5
+         }
+      },
+      {
+         "position": {
+            "en": "Web Developer",
+            "fr": "Développeur web"
+         },
+         "type": {
+            "en": "freelance contract",
+            "fr": "contrat pigiste"
+         },
+         "employer": {
+            "name": "ServiceBPC"
+         },
+         "startDate": "2010-01",
+         "endDate": "2016-07",
+         "experience": {
+            "months": 26,
+            "years": 2
+         },
+         "summary": {
+            "en": "ServiceBPC was my own freelance company that I created to gain profesional experience during my studies. Sucessfully delivered 15 web projects.",
+            "fr": "ServiceBPC était mon entreprise pigiste que j'ai créé pour gagner de l'expérience durant mes études. Livré avec succès 15 projects web."
+         },
+         "highlights": [
+            {
+               "en": "Built multiple transactional websites - photography shop for Les 2 Photographes, modular Magento shopping cart for Solutions Technologies, virtual ticket backend system for Heritage Software",
+               "fr": "Créé plusieurs sites Web transactionnels - boutique de photographie pour Les 2 Photographes, panier d'achat modulaire Magento pour Solutions Technologies, backend de billets virtuels pour Heritage Software"
+            },
+            {
+               "en": "Developed an image upload/cropping module for FJB casting, a file upload module for Heritage Software",
+               "fr": "Développement d'un module de téléchargement/recadrage d'images pour figuration Julie Breton, d'un module de téléchargement de fichiers pour Heritage Software"
+            },
+            {
+               "en": "Développement d'un CMS personnalisé et refonte d'un site d'actualités basé sur Wordpress pour CADS Informatique",
+               "fr": "Developed a custom CMS & redesigned a news website based on Wordpress for CADS Informatique"
+            }
+         ],
+         "skills": [
+            {
+               "name": "Backend",
+               "keywords": [
+                  "PHP"
+               ]
+            },
+            {
+               "name": "Backend QA",
+               "keywords": [
+                  "PHPUnit"
+               ]
+            },
+            {
+               "name": "Frontend",
+               "keywords": [
+                  "JavaScript",
+                  "jQuery",
+                  "HTML",
+                  "CSS"
+               ]
+            },
+            {
+               "name": "Databases",
+               "keywords": [
+                  "MariaDB/MySQL"
+               ]
+            },
+            {
+               "name": "Tools/Frameworks",
+               "keywords": [
+                  "Magento",
+                  "Wordpress"
+               ]
+            }
+         ]
+      }
+   ],
+   "education": [
+      {
+         "institution": "École de technologie supérieure",
+         "url": "https://www.etsmtl.ca/",
+         "area": "Entrepreneurship",
+         "studyType": {
+            "en": "Minor",
+            "fr": "Mineure"
+         },
+         "startDate": "2014-01",
+         "endDate": "2016-08",
+         "course_list": [
+            "ENT201 - Business financial management",
+            "ENT202 - Introduction to entrepreneurship",
+            "ENT601 - Marketing and sales",
+            "ENT602 - Company management"
+         ]
+      },
+      {
+         "institution": "École de technologie supérieure",
+         "url": "https://www.etsmtl.ca/",
+         "area": {
+            "en": "Software Engineering",
+            "fr": "Génie Logiciel"
+         },
+         "studyType": {
+            "en": "Bachelor",
+            "fr": "Baccalauréat"
+         },
+         "startDate": "2010-09",
+         "endDate": "2016-08",
+         "course_list": [
+            "LOG120 - Software Design",
+            "LOG210 - Object-Oriented Design",
+            "LOG240 - Conception et évaluation des interfaces utilisateurs",
+            "LOG320 - Data structures and Algorithms",
+            "LOG330 - Software Quality Assurance",
+            "LOG410 - Needs analysis and specifications",
+            "LOG430 - Software Architechture",
+            "LOG515 - project management",
+            "LOG530 - Software re-engineering",
+            "LOG635 - Artificial Intelligence Algorithms",
+            "LOG645 - Parrallel Computing",
+            "LOG660 - High performance Databases",
+            "LOG735 - Distributed Systems",
+            "LOG791 - Special projects",
+            "LOG792 - Graduation project in software engineering",
+            "GTI350 - Design and evaluation of graphic user interfaces (GUI)",
+            "GTI610 - Telecommunication networks",
+            "GTI619 - System Security",
+            "CHM131 - Chemistry and materials",
+            "ING150 - Static and Dynamic Physics",
+            "ING160 - Thermodynamics and Fluid mechanics",
+            "PHY332 - Electricity and Magnetism",
+            "PHY335 - Physics of electromagnetic waves",
+            "MAT145 - Differential and integral calculus",
+            "MAT210 - Logic and discrete mathematics",
+            "MAT265 - Differential equations",
+            "MAT350 - Probability and statistics",
+            "MAT472 - Linear algebra and space geometry",
+            "COM110 - Communication methods",
+            "GIA400 - Project profitability analysis",
+            "TIN501 - Environment, technology and society"
+         ],
+         "skills": [
+            {
+               "name": "Backend",
+               "keywords": [
+                  "Java",
+                  "C++"
+               ]
+            },
+            {
+               "name": "Frontend",
+               "keywords": [
+                  "JavaScript",
+                  "HTML",
+                  "CSS"
+               ]
+            },
+            {
+               "name": "Version control",
+               "keywords": [
+                  "Git",
+                  "GitHub",
+                  "Bitbucket"
+               ]
+            },
+            {
+               "name": "IDE",
+               "keywords": [
+                  "Eclipse"
+               ]
+            }
+         ]
+      },
+      {
+         "institution": "Cégep André-Laurendeau",
+         "url": "https://claurendeau.qc.ca/",
+         "endDate": "2010-05",
+         "startDate": "2007-08",
+         "area": {
+            "en": "Computer Science",
+            "fr": "Informatique de gestion"
+         },
+         "studyType": "DEC",
+         "course_list": [
+            "201-420-AL - Mathematics and Computer Science",
+            "420-102-AL - Algorithms and programming I",
+            "420-111-AL - Computers and technical support",
+            "420-121-AL - Internet and multimedia",
+            "420-201-AL - Algorithms and programming II",
+            "420-211-AL - Operating systems",
+            "420-221-AL - Web Apps I",
+            "420-301-AL - Object Oriented Design and Programming I",
+            "420-311-AL - Network architecture",
+            "420-321-AL - Web Apps II",
+            "420-331-AL - Systems modeling and UML",
+            "201-421-AL - Statistics",
+            "420-401-AL - Object Oriented Design and Programming II",
+            "420-411-AL - Internet Services and Security",
+            "420-431-AL - Implementation of databases",
+            "401-420-AL - Enterprise Computer Systems",
+            "420-501-AL - Programming user interfaces",
+            "420-502-AL - Quality Assurance and Maintenance",
+            "420-521-AL - Multi-Tier Application Project",
+            "420-531-AL - Integrated Database Tools I",
+            "420-631-AL - Integrated Database Tools II"
+         ],
+         "skills": [
+            {
+               "name": "Backend",
+               "keywords": [
+                  "Java",
+                  "C",
+                  "PHP"
+               ]
+            },
+            {
+               "name": "Frontend",
+               "keywords": [
+                  "JavaScript",
+                  "HTML",
+                  "CSS"
+               ]
+            },
+            {
+               "name": "Databases",
+               "keywords": [
+                  "Oracle",
+                  "MariaDB/MySQL"
+               ]
+            },
+            {
+               "name": "IDE",
+               "keywords": [
+                  "Eclipse"
+               ]
+            }
+         ]
+      }
+   ],
+   "certificates": [
+      {
+         "name": "Azure Fundamentals",
+         "issuer": "Microsoft",
+         "url": "https://learn.microsoft.com/api/credentials/share/en-us/BrunoPC-3603/D20B621C382C8F05?sharingId=65A3BCD16EBB5404",
+         "date": "2024-08-02",
+         "id": "D20B621C382C8F05",
+         "skills": [
+            {
+               "name": "DevOps",
+               "keywords": [
+                  "Azure"
+               ]
+            }
+         ]
+      },
+      {
+         "name": "AWS Cloud Practitioner",
+         "issuer": "Amazon",
+         "url": "https://aws.amazon.com/certification/exams/",
+         "date": "2023-11-05",
+         "id": "e7283417-5935-4b11-b498-53169f85a385",
+         "skills": [
+            {
+               "name": "DevOps",
+               "keywords": [
+                  "AWS"
+               ]
+            }
+         ]
+      },
+      {
+         "name": {
+            "en": "Start with React",
+            "fr": "Débutez avec React"
+         },
+         "issuer": "OpenClassroom",
+         "url": "https://openclassrooms.com/fr/courses/7008001-debutez-avec-react",
+         "date": "2023-07-21",
+         "skills": [
+            {
+               "name": "Frontend",
+               "keywords": [
+                  "React",
+                  "JavaScript"
+               ]
+            }
+         ]
+      },
+      {
+         "name": {
+            "en": "Create a Java Application with Spring Boot",
+            "fr": "Créez une application avec Spring Boot"
+         },
+         "issuer": "OpenClassroom",
+         "url": "https://openclassrooms.com/fr/courses/6900101-creez-une-application-java-avec-spring-boot",
+         "date": "2023-07-05",
+         "skills": [
+            {
+               "name": "Backend",
+               "keywords": [
+                  "Spring Boot",
+                  "Java"
+               ]
+            }
+         ]
+      },
+      {
+         "name": "Jenkins, From Zero To Hero",
+         "issuer": "Udemy",
+         "url": "https://www.udemy.com/course/Jenkins-from-zero-to-hero/",
+         "date": "2021-01-29",
+         "id": "UC-f5f51268-7bf8-4856-aca7-b72cfe46810e",
+         "skills": [
+            {
+               "name": "DevOps",
+               "keywords": [
+                  "Jenkins",
+                  "Docker"
+               ]
+            },
+            {
+               "name": "Scripting",
+               "keywords": [
+                  "Bash"
+               ]
+            }
+         ]
+      },
+      {
+         "name": "Ansible for the absolute Beginner",
+         "issuer": "Udemy",
+         "url": "https://www.udemy.com/course/learn-ansible/",
+         "date": "2020-06-02",
+         "id": "UC-6a8d8088-b7d3-4070-a43a-ffb14f2e4b34",
+         "skills": [
+            {
+               "name": "DevOps",
+               "keywords": [
+                  "Ansible"
+               ]
+            }
+         ]
+      },
+      {
+         "name": "Learn DevOps: Infrastructure Automation With Terraform",
+         "issuer": "Udemy",
+         "url": "https://www.udemy.com/course/learn-devops-infrastructure-automation-with-terraform/",
+         "completion": "60%",
+         "skills": [
+            {
+               "name": "DevOps",
+               "keywords": [
+                  "Terraform"
+               ]
+            }
+         ]
+      },
+      {
+         "name": "Docker Mastery: with Kubernetes +Swarm from a Docker Captain",
+         "issuer": "Udemy",
+         "url": "https://www.udemy.com/course/Docker-mastery/",
+         "completion": "54%",
+         "skills": [
+            {
+               "name": "DevOps",
+               "keywords": [
+                  "Docker",
+                  "Kubernetes"
+               ]
+            }
+         ]
+      },
+      {
+         "name": "Amazon Web Services (AWS) Certified - 4 Certifications!",
+         "issuer": "Udemy",
+         "url": "https://www.udemy.com/course/aws-certified-associate-architect-developer-sysops-admin/",
+         "completion": "45%",
+         "skills": [
+            {
+               "name": "DevOps",
+               "keywords": [
+                  "AWS"
+               ]
+            }
+         ]
+      }
+   ],
+   "interests": [
+      {
+         "name": {
+            "en": "Racing",
+            "fr": "Course"
+         },
+         "keywords": [
+            {
+               "en": "Karting",
+               "fr": "Karting"
+            },
+            {
+               "en": "Cycling",
+               "fr": "Cyclisme"
+            }
+         ]
+      },
+      {
+         "name": "Coaching",
+         "keywords": [
+            {
+               "en": "Speed Skating",
+               "fr": "Patinage de vitesse"
+            }
+         ]
+      },
+      {
+         "name": {
+            "en": "Writing",
+            "fr": "Écriture"
+         }
+      }
+   ],
+   "references": [
+      {
+         "name": "Vera Jovicic, LL.M, PMP, PSM",
+         "position": {
+            "en": "Project Manager",
+            "fr": "Gestionaire de projet"
+         },
+         "place": "Levio",
+         "link": "https://www.linkedin.com/in/vera-jovicic-ll-m-pmp-psm-0b63a49a/",
+         "experience": {
+            "name": "DevOps Developer, Rona",
+            "link": "/docs/experiences/devops-developer-at-rona/"
+         },
+         "value": {
+            "fr": "Je tiens à remercier Bruno d'avoir pris le risque de rejoindre notre équipe! Sa présence a vraiment aidé à faire avancer le projet. J'espère vraiment que nous aurons l'occasion de travailler ensemble à nouveau. Je suis sûr qu'il fera un excellent travail dans ses prochains projets.",
+            "en": "I would like to thank Bruno for taking a chance and joining our team! Having him on board really helped the project move along. I really hope we get to work together again. I'm sure he will do great in whatever project he'll go next."
+         }
+      },
+      {
+         "name": "Ali Boutaba",
+         "position": {
+            "en": "Team Manager",
+            "fr": "Chef d'équipe"
+         },
+         "place": "Société Générale",
+         "link": "https://www.linkedin.com/in/ali-boutabaa-9ba1b886/",
+         "experience": {
+            "name": "DevOps Developer, Société Générale",
+            "link": "/docs/experiences/devops_developer_at_societe_generale/"
+         },
+         "value": {
+            "fr": "Bruno était excellent pour planifier et mettre en œuvre des améliorations basées sur des données factuelles. Son pragmatisme a conduit l'équipe vers des objectifs réalistes, ce qui mené à des améliorations mesurables. Il est un atout précieux pour tout chef d'équipe qui a besoin de conseils et d'arguments objectifs pour gérer les priorités d'un projet.",
+            "en": "Bruno was very good at planning and implementing improvements based on real data. His pragmatism led to realistic goals, which led to mesurable results. He is a great asset for any team leader that needs guidance and arguments that helps to manage the project budjet."
+         }
+      },
+      {
+         "name": "Pierre Bélanger, B.Eng., MBA",
+         "position": {
+            "en": "Entrepreneurship Teacher",
+            "fr": "Professeur d'entreprenaria"
+         },
+         "place": "ÉTS",
+         "experience": {
+            "name": "Entrepreneurship minor, ÉTS",
+            "link": "/docs/education/entrepreneurship-minor/"
+         },
+         "value": {
+            "fr": "Bruno a été un participant actif et investi au microprogramme d'entrepreneurship [...] M. Pettersen a démontré un intérêt envers l'entreprenariat dont toute la classe a pu bénéficier. Il a aussi démontré une curiosité évidente envers les outils de l'entreprenariat et une volonté sentie d'en maîtriser le fonctionnement. C'est donc avec plaisir que je réfère M. Pettersen à toute entreprise. Elle trouvera en Bruno un employé vif et intéressé qui lui rendra d'excellents services.",
+            "en": "I'm thrilled to testify favorably on Mr. Pettersen's behalf. Bruno has been an active and invested participant in the entrepreneurship program, both in class and in the practical work where students are involved in influencing the content taught according to the needs of student entrepreneurs. Bruno demonstrated an interest in entrepreneurship that the whole class could benefit from during the discussions on different business scenarios. He also demonstrated an obvious curiosity towards the tools of entrepreneurship and a strong desire to master their operation. It is therefore with pleasure that I refer Mr. Pettersen to any company."
+         }
+      },
+      {
+         "name": "Nicolas Belisle",
+         "position": {
+            "en": "VP Technology",
+            "fr": "VP Technologie"
+         },
+         "place": "Constellio",
+         "link": "https://www.linkedin.com/in/nicolas-b%C3%A9lisle-5b77764/",
+         "experience": {
+            "name": "Software Developer, Constellio",
+            "place": "Constellio",
+            "link": "/docs/experiences/software_developer-at-constellio/"
+         },
+         "value": {
+            "fr": "M. Pettersen-Coulombe a effectué avec brio une refonte de l'interface du moteur officiel de recherche du Gouvernement du Québec. Son travail, qui reçoit actuellement plusieurs millions de requêtes par mois, est actuellement en production. Le moteur disposait d'une technologie complexe, limitant le temps de réponse. Bruno a conçu une nouvelle interface basé e sur les technologies de dernière génération. Les temps réponse de celle ci sont dorénavant beaucoup plus rapides. Plus important encore, l’interface accroît significativement la facilité avec laquelle un client peut intégrer l’outil de recherche dans son site web. En résumé, je tiens à souligner l’initiative, le souci d’amélioration continue et l’autonomie démontrée par Bruno Pettersen-Coulombe.",
+            "en": "Bruno brilliantly overhauled the interface of the official search engine of the Government of Quebec during his internship at Constellio. The engine, which handles millions of searches, had a flexible but complex interface technology that limited response times. Bruno designed the new interface based on the latest technologies (Ajax/jQuery). The work was a success! I would like to highlight Bruno's initiative, continuous improvement efforts, and demonstrated autonomy. It is a real pleasure to work with him!"
+         }
+      },
+      {
+         "name": "Louis Parent",
+         "position": {
+            "en": "Finance Teacher",
+            "fr": "Professeur de finance"
+         },
+         "place": "ÉTS",
+         "link": "https://www.linkedin.com/in/louis-parent-4866a614/",
+         "experience": {
+            "name": "Entrepreneurship minor, ÉTS",
+            "link": "/docs/education/entrepreneurship-minor/"
+         },
+         "value": {
+            "fr": "Bruno était l'un des étudiants les plus brillants que j'ai eus. Il a une excellente compréhension de la théorie financière!",
+            "en": "Bruno was one of the brightest student I have had. He has great understanding of Financial Theory!"
+         }
+      },
+      {
+         "name": "Denis Tremblay, M.Sc",
+         "position": {
+            "en": "President",
+            "fr": "Président"
+         },
+         "place": "Alliance Management",
+         "link": "https://www.linkedin.com/in/denis-tremblay-m-sc-8310017/",
+         "experience": {
+            "name": "Web Developer, ServiceBPC",
+            "link": "/docs/experiences/web-developer-at-service-bpc/"
+         },
+         "value": {
+            "fr": "Bruno nous a offert un service rapide et efficace, sa préoccupation clientèle est bien remplie. Nous n'hésiterons pas à l'embaucher au besoin.",
+            "en": "Bruno provided us with fast and efficient service. His customer care is excellent. We would not hesitate to hire him again if needed."
+         }
+      }
+   ],
+   "projects": [
+      {
+         "name": "Docusaurus Blog",
+         "url": "https://brunopc.net/",
+         "summary": {
+            "en": "My online web presence",
+            "fr": "Ma présence en ligne"
+         },
+         "skills": [
+            {
+               "name": "Frontend",
+               "keywords": [
+                  "Docusaurus",
+                  "React",
+                  "MDX",
+                  "JavaScript"
+               ]
+            }
+         ]
+      },
+      {
+         "name": "Horus",
+         "url": "https://brunopc-net.github.io/Horus",
+         "summary": {
+            "en": "A Node.js/React short term weather report",
+            "fr": "Application météo à court terme en React/Node.js"
+         },
+         "skills": [
+            {
+               "name": "Backend",
+               "keywords": [
+                  "Node.js"
+               ]
+            },
+            {
+               "name": "Frontend",
+               "keywords": [
+                  "React",
+                  "JavaScript"
+               ]
+            },
+            {
+               "name": "DevOps",
+               "keywords": [
+                  "GitHub Actions"
+               ]
+            },
+            {
+               "name": "IDE",
+               "keywords": [
+                  "Visual Studio Code"
+               ]
+            }
+         ]
+      },
+      {
+         "name": "Cher Ami",
+         "summary": {
+            "en": "Serverless Node.js email sender",
+            "fr": "Expéditeur de courriels en Node.js"
+         },
+         "skills": [
+            {
+               "name": "Backend",
+               "keywords": [
+                  "Node.js"
+               ]
+            },
+            {
+               "name": "Scripting",
+               "keywords": [
+                  "JavaScript"
+               ]
+            }
+         ]
+      },
+      {
+         "name": "Cerberus",
+         "summary": {
+            "en": "A Python file backup application",
+            "fr": "Application de sauvegarde de fichiers en Python"
+         },
+         "skills": [
+            {
+               "name": "Backend",
+               "keywords": [
+                  "Python"
+               ]
+            },
+            {
+               "name": "DevOps",
+               "keywords": [
+                  "Docker",
+                  "Jenkins"
+               ]
+            },
+            {
+               "name": "IDE",
+               "keywords": [
+                  "Pycharm"
+               ]
+            }
+         ]
+      },
+      {
+         "name": "Questrade Bot",
+         "summary": {
+            "en": "A Python bot that buy stocks on Questrade",
+            "fr": "Bot Python qui achète des actions sur Questrade"
+         },
+         "skills": [
+            {
+               "name": "Backend",
+               "keywords": [
+                  "Python"
+               ]
+            },
+            {
+               "name": "Databases",
+               "keywords": [
+                  "Redis"
+               ]
+            },
+            {
+               "name": "IDE",
+               "keywords": [
+                  "Pycharm"
+               ]
+            }
+         ]
+      }
+   ],
+   "skills": [
+      {
+         "name": "Backend",
+         "keywords": [
+            "Spring Boot",
+            "Java",
+            "Tibco",
+            "Kafka",
+            "MQ",
+            "Groovy",
+            "C#",
+            "PHP",
+            "C++",
+            "C",
+            "Node.js",
+            "Python"
+         ]
+      },
+      {
+         "name": "Backend QA",
+         "keywords": [
+            "Cucumber",
+            "JUnit",
+            "Mockito",
+            "Wiremock",
+            "REST Assured",
+            "Spock",
+            "PHPUnit"
+         ]
+      },
+      {
+         "name": "DevOps",
+         "keywords": [
+            "Docker",
+            "CI/CD",
+            "GitLab pipelines",
+            "ELK stack",
+            "Helm",
+            "Kubernetes",
+            "Vault",
+            "Jenkins",
+            "AutoSys Workload Automation",
+            "Azure",
+            "AWS",
+            "Ansible",
+            "Terraform",
+            "GitHub Actions"
+         ]
+      },
+      {
+         "name": "Frontend",
+         "keywords": [
+            "JavaScript",
+            "jQuery",
+            "CSS",
+            "HTML",
+            "React",
+            "Docusaurus",
+            "MDX"
+         ]
+      },
+      {
+         "name": "Frontend QA",
+         "keywords": [
+            "Cypress",
+            "HtmlUnit",
+            "Selenium",
+            "Saucelabs",
+            "QUnit"
+         ]
+      },
+      {
+         "name": "Databases",
+         "keywords": [
+            "PostgreSQL",
+            "Flyway",
+            "H2",
+            "NoSQL",
+            "SQL Server",
+            "Oracle",
+            "MariaDB/MySQL",
+            "Redis"
+         ]
+      }
+   ]
+}
