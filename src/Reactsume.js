@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
 import DocumentMeta from 'react-document-meta';
 
 const downloadFilename = 'brunopc_cv.pdf';
@@ -13,7 +13,7 @@ const Resume = ({ data, theme: Theme, lang }) => {
 
     useEffect(() => {
         // If pdf exists, setting the pdf file url to pass to the Theme
-        const pdfFile = `/resume-${lang}.pdf`;
+        const pdfFile = `/Reactsume/resume-${lang}.pdf`;
         fetch(`.${pdfFile}`).then((response) => response.ok &&
             setPdf({ fileUrl: pdfFile, fileName: downloadFilename })
         )
