@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import ReactDOM from 'react-dom/client';
+import { HashRouter } from "react-router-dom";
 
 import Reactsume from './Reactsume';
 // Reactsume need 2 things: the resume data and a theme
@@ -40,6 +41,8 @@ ReactDOM.createRoot(
   document.getElementById('root'),
 ).render(
   <React.StrictMode>
-    <App />
+    <HashRouter>
+      <App />
+    </HashRouter>
   </React.StrictMode>
 );

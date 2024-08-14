@@ -37,16 +37,12 @@ const Reactsume = ({data, theme}) => {
     }, []);
 
     return redirectedLang && (
-        <Router>
-            <Routes>
-                <Route>
-                    <Route path="/" element={<Navigate to={`/${redirectedLang}`} replace />} />
-                    {Object.keys(data.basics.label).map( lang =>
-                        <Route key={lang} path={`/${lang}`} element={<Resume data={data} theme={theme} lang={lang} />} />
-                    )}
-                </Route>
-            </Routes>
-        </Router>
+        <Routes>
+            <Route path="/" element={<Navigate to={`/${redirectedLang}`} replace />} />
+            {Object.keys(data.basics.label).map( lang =>
+                <Route key={lang} path={`/${lang}`} element={<Resume data={data} theme={theme} lang={lang} />} />
+            )}
+        </Routes>
     );
 };
 
