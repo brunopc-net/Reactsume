@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Reactsume/static/css/main.995f7034.css",
-    "main.js": "/Reactsume/static/js/main.3ba3892a.js",
+    "main.js": "/Reactsume/static/js/main.156e3d74.js",
     "index.html": "/Reactsume/index.html",
     "main.995f7034.css.map": "/Reactsume/static/css/main.995f7034.css.map",
-    "main.3ba3892a.js.map": "/Reactsume/static/js/main.3ba3892a.js.map"
+    "main.156e3d74.js.map": "/Reactsume/static/js/main.156e3d74.js.map"
   },
   "entrypoints": [
     "static/css/main.995f7034.css",
-    "static/js/main.3ba3892a.js"
+    "static/js/main.156e3d74.js"
   ]
 }
