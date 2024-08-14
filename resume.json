@@ -757,7 +757,7 @@
                "name": "Backend",
                "keywords": [
                   "Java",
-                  "C++"
+                  "C/C++"
                ]
             },
             {
@@ -822,7 +822,7 @@
                "name": "Backend",
                "keywords": [
                   "Java",
-                  "C",
+                  "C/C++",
                   "PHP"
                ]
             },
@@ -1314,8 +1314,7 @@
             "Groovy",
             "C#",
             "PHP",
-            "C++",
-            "C",
+            "C/C++",
             "Node.js",
             "Python"
          ]
