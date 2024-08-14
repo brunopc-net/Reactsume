@@ -626,6 +626,7 @@
          "startDate": "2010-01",
          "endDate": "2016-07",
          "experience": {
+            "override": true,
             "months": 26,
             "years": 2
          },
