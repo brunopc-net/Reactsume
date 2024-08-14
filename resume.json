@@ -66,7 +66,10 @@
    ],
    "work": [
       {
-         "position": "Backend Tech Lead",
+         "position": {
+            "en": "Backend Tech Lead",
+            "fr": "Lead technique Backend"
+         },
          "type": {
             "en": "Consulting contract",
             "fr": "Mandat de consultant"
@@ -273,7 +276,10 @@
          }
       },
       {
-         "position": "SDET Tech Lead",
+         "position": {
+            "en": "SDET Tech Lead",
+            "fr": "Lead Technique en Assurance Qualité"
+         },
          "type": {
             "en": "Consulting contract",
             "fr": "Mandat de consultant"
@@ -304,7 +310,7 @@
             },
             {
                "en": "Trained ~30 people within multiple QA teams on good Software architecture & test principles. Documented pipeline execution, code structure and maintenance guidance",
-               "fr": "Formé ~30 employés de plusieurs équipes différentes sur l'architechture logicielle/de test efficiente. Documenté les pipelines d'exécution, la structure de code et le guide de maintenance."
+               "fr": "Formé ~30 employés de plusieurs équipes différentes sur l'architecture logicielle/de test efficiente. Documenté les pipelines d'exécution, la structure de code et le guide de maintenance."
             }
          ],
          "skills": [
@@ -1144,11 +1150,46 @@
          ]
       },
       {
+         "name": "Reactsume",
+         "url": "https://brunopc-net.github.io/Reactsume",
+         "summary": {
+            "en": "React based resume with custom themes and multilanguage support ",
+            "fr": "CV en ligne multilangues avec support de thèmes basé sur React"
+         },
+         "skills": [
+            {
+               "name": "Backend",
+               "keywords": [
+                  "Node.js"
+               ]
+            },
+            {
+               "name": "Frontend",
+               "keywords": [
+                  "React",
+                  "JavaScript"
+               ]
+            },
+            {
+               "name": "DevOps",
+               "keywords": [
+                  "GitHub Actions"
+               ]
+            },
+            {
+               "name": "IDE",
+               "keywords": [
+                  "Visual Studio Code"
+               ]
+            }
+         ]
+      },
+      {
          "name": "Horus",
          "url": "https://brunopc-net.github.io/Horus",
          "summary": {
             "en": "A Node.js/React short term weather report",
-            "fr": "Application météo à court terme en React/Node.js"
+            "fr": "Application météo court terme en React/Node.js"
          },
          "skills": [
             {
@@ -1230,8 +1271,8 @@
       {
          "name": "Questrade Bot",
          "summary": {
-            "en": "A Python bot that buy stocks on Questrade",
-            "fr": "Bot Python qui achète des actions sur Questrade"
+            "en": "Python Questrade stock buyer",
+            "fr": "Acheteur d'actions Questrade en Python"
          },
          "skills": [
             {
