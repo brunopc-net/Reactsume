@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.995f7034.css",
-    "main.js": "/static/js/main.890d09e5.js",
-    "index.html": "/index.html",
-    "main.995f7034.css.map": "/static/css/main.995f7034.css.map",
-    "main.890d09e5.js.map": "/static/js/main.890d09e5.js.map"
+    "main.css": "/Reactsume/static/css/main.995f7034.css",
+    "main.js": "/Reactsume/static/js/main.890d09e5.js",
+    "index.html": "/Reactsume/index.html",
+    "main.995f7034.css.map": "/Reactsume/static/css/main.995f7034.css.map",
+    "main.890d09e5.js.map": "/Reactsume/static/js/main.890d09e5.js.map"
   },
   "entrypoints": [
     "static/css/main.995f7034.css",
