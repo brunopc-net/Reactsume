@@ -19,7 +19,9 @@ function enrichResume(){
     //Enrich work experioence
     let xpTotalMonths = 0;
     resume.work.forEach(item => {
-        const xp = new ExperienceTime(item).getXp();
+        const xp = item.experience.override ? 
+            item.experience :
+            new ExperienceTime(item).getXp();
         item.experience = xp;
         xpTotalMonths += xp.months;
     });
