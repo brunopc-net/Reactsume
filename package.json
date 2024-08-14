@@ -1,12 +1,13 @@
 {
   "name": "reactsume",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "React based resume with custom themes and multilanguage support ",
   "author": "Bruno Pettersen-Coulombe",
   "repository": {
     "type": "git",
     "url": "https://github.com/brunopc-net/Reactsume"
   },
+  "homepage": "https://brunopc-net.github.io/Reactsume",
   "license": "MIT",
   "main": "src/index.js",
   "dependencies": {
