@@ -8,6 +8,7 @@
     "url": "https://github.com/brunopc-net/Reactsume"
   },
   "homepage": "https://brunopc-net.github.io/Reactsume",
+  "private": false,
   "license": "MIT",
   "main": "src/index.js",
   "dependencies": {
