@@ -686,7 +686,10 @@
       {
          "institution": "École de technologie supérieure",
          "url": "https://www.etsmtl.ca/",
-         "area": "Entrepreneurship",
+         "area": {
+            "en": "Entrepreneurship",
+            "fr": "Entrepreneuriat"
+         },
          "studyType": {
             "en": "Minor",
             "fr": "Mineure"
