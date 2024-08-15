@@ -19,8 +19,8 @@ jobs:
 
     - name: Set up Git user
       run: |
-        git config --global user.name 'brunopc-net'
-        git config --global user.email 'work@brunopc.net'
+        git config --global user.name 'Bruno PC'
+        git config --global user.email 'brunopc-net@users.noreply.github.com'
 
     - name: Clone Docusaurus-Blog repository
       uses: actions/checkout@v3
@@ -41,6 +41,7 @@ jobs:
 
     - name: Push changes
       run: |
+        git remote set-url --push origin https://brunopc-net:$GITHUB_TOKEN@github.com/brunopc-net/Docusaurus-Blog
         git push
       env:
         GITHUB_TOKEN: ${{ secrets.GH_ACTION_TOKEN }}
