@@ -36,7 +36,7 @@ jobs:
     - name: Commit changes
       run: |
         cd Docusaurus-Blog
-        git add resume.json
+        git add data/resume.json
         git commit -m "Reactsume updates resume.json"
 
     - name: Push changes
