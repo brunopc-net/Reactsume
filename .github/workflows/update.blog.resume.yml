@@ -39,9 +39,12 @@ jobs:
         git add data/resume.json
         git commit -m "Reactsume updates resume.json"
 
+    - name: Set SSH deploy key
+      uses: webfactory/ssh-agent@v0.9.0
+      with:
+        ssh-private-key: ${{ secrets.SSH_DEPLOY_KEY }}
+
     - name: Push changes
       run: |
-        git remote set-url --push origin https://brunopc-net:$GITHUB_TOKEN@github.com/brunopc-net/Docusaurus-Blog
+        git remote set-url origin git@github.com:brunopc-net/Docusaurus-Blog.git
         git push
-      env:
-        GITHUB_TOKEN: ${{ secrets.GH_ACTION_TOKEN }}
