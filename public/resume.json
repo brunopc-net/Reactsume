@@ -67,7 +67,7 @@
    "work": [
       {
          "position": {
-            "en": "Backend super Tech Lead",
+            "en": "Backend Tech Lead",
             "fr": "Lead technique Backend"
          },
          "type": {
@@ -90,7 +90,7 @@
          },
          "highlights": [
             {
-               "en": "Built 4 microservices: Customer-ms (handling of Rona customers), Quotes-ms (handling of custom quotes), RRS (a product data reference service), Message-Receiver (a Tibco Queue client to handle quotes updates)",
+               "en": "Built 40 microservices: Customer-ms (handling of Rona customers), Quotes-ms (handling of custom quotes), RRS (a product data reference service), Message-Receiver (a Tibco Queue client to handle quotes updates)",
                "fr": "Dévelopement de 4 microservices: Customer-ms (gestion des clients), Quotes-ms (gestions des estimations), RRS (référencement de produits), Message-Receiver (client Tibco pour gérer les mises à jours des estimés)"
             },
             {
