@@ -10,16 +10,17 @@ jobs:
     name: Deploy to GitHub Pages
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout brunopc branch
+        uses: actions/checkout@v4
+        with:
+          ref: brunopc
+
       - name: Validate resume json syntax
         uses: GrantBirki/json-yaml-validate@v3.0.0
         with:
           files: |
             public/resume.json
-      
-      - run: echo resume.json syntax is valid! 🎉
-      
-      - name: Checkout brunopc branch
-        uses: actions/checkout@v4
+      - run: echo "resume.json syntax is valid 🎉"
 
       - name: Setup node
         uses: actions/setup-node@v3
