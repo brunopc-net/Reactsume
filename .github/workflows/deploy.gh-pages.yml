@@ -12,8 +12,8 @@ jobs:
     steps:
       - name: Validate resume json syntax
         uses: GrantBirki/json-yaml-validate@v3.0.0
-        files:
-          - public/resume.json
+          files:
+            - public/resume.json
       
       - name: Checkout brunopc branch
         uses: actions/checkout@v4
