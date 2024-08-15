@@ -10,10 +10,18 @@ jobs:
     name: Deploy to GitHub Pages
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - name: Validate resume json syntax
+        uses: GrantBirki/json-yaml-validate@v3.0.0
+        files:
+          - public/resume.json
+      
+      - name: Checkout brunopc branch
+        uses: actions/checkout@v4
+
+      - name: Setup node
+        uses: actions/setup-node@v3
         with:
-          node-version: 18
+          node-version: 20
           cache: yarn
 
       - name: Install dependencies
