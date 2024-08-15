@@ -19,8 +19,8 @@ jobs:
 
     - name: Set up Git user
       run: |
-        git config --global user.name 'github-actions[bot]'
-        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git config --global user.name 'brunopc-net'
+        git config --global user.email 'work@brunopc.net'
 
     - name: Clone Docusaurus-Blog repository
       uses: actions/checkout@v3
