@@ -11,9 +11,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Validate resume json syntax
-        uses: limitusus/json-syntax-check@v2
+        uses: GrantBirki/json-yaml-validate@v3.0.0
         with:
-          pattern: "public/resume.json"
+          base_dir: "public"
+          files: 
+            - resume.json
+        run: echo resume.json syntax is valid! 🎉
       
       - name: Checkout brunopc branch
         uses: actions/checkout@v4
