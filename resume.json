@@ -85,12 +85,12 @@
          "startDate": "2024-02",
          "endDate": "2024-07",
          "summary": {
-            "en": "Building of 40 microservices with Spring Boot for Selling-Tools project",
+            "en": "Building of 4 microservices with Spring Boot for Selling-Tools project",
             "fr": "Écriture de 4 microservices avec Spring Boot pour l'équipe Selling-Tools"
          },
          "highlights": [
             {
-               "en": "Built 40 microservices: Customer-ms (handling of Rona customers), Quotes-ms (handling of custom quotes), RRS (a product data reference service), Message-Receiver (a Tibco Queue client to handle quotes updates)",
+               "en": "Built 4 microservices: Customer-ms (handling of Rona customers), Quotes-ms (handling of custom quotes), RRS (a product data reference service), Message-Receiver (a Tibco Queue client to handle quotes updates)",
                "fr": "Dévelopement de 4 microservices: Customer-ms (gestion des clients), Quotes-ms (gestions des estimations), RRS (référencement de produits), Message-Receiver (client Tibco pour gérer les mises à jours des estimés)"
             },
             {
