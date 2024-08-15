@@ -13,9 +13,9 @@ const Resume = ({ data, theme: Theme, lang }) => {
 
     useEffect(() => {
         // If pdf exists, setting the pdf file url to pass to the Theme
-        const pdfFile = `/Reactsume/resume-${lang}.pdf`;
+        const pdfFile = `/resume-${lang}.pdf`;
         fetch(`.${pdfFile}`).then((response) => response.ok &&
-            setPdf({ fileUrl: pdfFile, fileName: downloadFilename })
+            setPdf({ fileUrl: '/Reactsume'+pdfFile, fileName: downloadFilename })
         )
     }, []);
 
