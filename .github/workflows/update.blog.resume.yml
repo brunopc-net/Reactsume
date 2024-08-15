@@ -47,4 +47,4 @@ jobs:
     - name: Push changes
       run: |
         git remote add external git@github.com:brunopc-net/Docusaurus-Blog.git
-        git push external gh-pages
+        git push origin gh-pages
