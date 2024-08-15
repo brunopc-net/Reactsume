@@ -41,8 +41,8 @@ jobs:
 
     - name: Set up Git user
       run: |
-        git config --global user.name 'Bruno PC'
         git config --global user.email 'work@brunopc.net'
+        git config --global user.name 'Bruno PC'
 
     - name: Push changes
       run: |
