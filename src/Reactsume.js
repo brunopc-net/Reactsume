@@ -5,6 +5,7 @@ import DocumentMeta from 'react-document-meta';
 const downloadFilename = 'brunopc_cv.pdf';
 
 const Resume = ({ data, theme: Theme, lang }) => {
+    document.documentElement.lang = lang;
     const meta = {
         title: `CV, ${data.basics.name}`,
         description: `${data.basics.name}, ${data.basics.title[lang]}, ${data.basics.label[lang]}`
