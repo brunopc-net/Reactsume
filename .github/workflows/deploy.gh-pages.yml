@@ -13,9 +13,8 @@ jobs:
       - name: Validate resume json syntax
         uses: GrantBirki/json-yaml-validate@v3.0.0
         with:
-          base_dir: "public"
-          files: 
-            - resume.json
+          files: |
+            public/resume.json
       
       - run: echo resume.json syntax is valid! 🎉
       
