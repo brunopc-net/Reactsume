@@ -21,7 +21,7 @@ jobs:
       uses: actions/checkout@v3
       with:
         repository: brunopc-net/Docusaurus-Blog
-        ref: gh-pages
+        ref: master
         path: Docusaurus-Blog
 
     - name: Set SSH deploy key
@@ -36,12 +36,12 @@ jobs:
 
     - name: Update resume.json file
       run: |
-        cp public/resume.json Docusaurus-Blog/data/
+        cp public/resume.json Docusaurus-Blog/static/data/
 
     - name: Commit & push changes
       run: |
         cd Docusaurus-Blog
-        git add data/resume.json
+        git add static/data/resume.json
         git commit -m "Reactsume updates resume.json"
         git remote add external git@github.com:brunopc-net/Docusaurus-Blog.git
-        git push origin gh-pages
+        git push origin master
