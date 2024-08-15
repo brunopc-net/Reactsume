@@ -24,16 +24,6 @@ jobs:
         ref: gh-pages
         path: Docusaurus-Blog
 
-    - name: Update resume.json file
-      run: |
-        cp public/resume.json Docusaurus-Blog/data/
-
-    - name: Commit changes
-      run: |
-        cd Docusaurus-Blog
-        git add data/resume.json
-        git commit -m "Reactsume updates resume.json"
-
     - name: Set SSH deploy key
       uses: webfactory/ssh-agent@v0.9.0
       with:
@@ -43,6 +33,16 @@ jobs:
       run: |
         git config --global user.email 'work@brunopc.net'
         git config --global user.name 'Bruno PC'
+
+    - name: Update resume.json file
+      run: |
+        cp public/resume.json Docusaurus-Blog/data/
+
+    - name: Commit changes
+      run: |
+        cd Docusaurus-Blog
+        git add data/resume.json
+        git commit -m "Reactsume updates resume.json"
 
     - name: Push changes
       run: |
