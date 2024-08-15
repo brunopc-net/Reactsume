@@ -16,7 +16,8 @@ jobs:
           base_dir: "public"
           files: 
             - resume.json
-        run: echo resume.json syntax is valid! 🎉
+      
+      - run: echo resume.json syntax is valid! 🎉
       
       - name: Checkout brunopc branch
         uses: actions/checkout@v4
