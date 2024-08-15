@@ -17,11 +17,6 @@ jobs:
       with:
         ref: brunopc
 
-    - name: Set up Git user
-      run: |
-        git config --global user.name 'Bruno PC'
-        git config --global user.email 'brunopc-net@users.noreply.github.com'
-
     - name: Clone Docusaurus-Blog repository
       uses: actions/checkout@v3
       with:
@@ -44,6 +39,12 @@ jobs:
       with:
         ssh-private-key: ${{ secrets.SSH_DEPLOY_KEY }}
 
+    - name: Set up Git user
+      run: |
+        git config --global user.name 'Bruno PC'
+        git config --global user.email 'work@brunopc.net'
+
     - name: Push changes
       run: |
-        git push
+        git remote add external git@github.com:your-username/external-repo.git
+        git push external gh-pages
