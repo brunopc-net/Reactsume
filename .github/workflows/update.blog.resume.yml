@@ -1,0 +1,46 @@
+name: Update blog resume data
+
+on:
+  push:
+    branches:
+      - brunopc
+    paths:
+      - public/resume.json
+    
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout brunopc branch
+      uses: actions/checkout@v3
+      with:
+        ref: brunopc
+
+    - name: Set up Git user
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+
+    - name: Clone Docusaurus-Blog repository
+      uses: actions/checkout@v3
+      with:
+        repository: brunopc-net/Docusaurus-Blog
+        ref: gh-pages
+        path: Docusaurus-Blog
+
+    - name: Update resume.json file
+      run: |
+        cp public/resume.json Docusaurus-Blog/data/
+
+    - name: Commit changes
+      run: |
+        cd Docusaurus-Blog
+        git add resume.json
+        git commit -m "Reactsume updates resume.json"
+
+    - name: Push changes
+      run: |
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GH_ACTION_TOKEN }}
