@@ -689,7 +689,7 @@
    "education": [
       {
          "institution": "École de technologie supérieure",
-         "url": "https://www.etsmtl.ca/",
+         "url": "https://www.etsmtl.ca/programmes-formations/microprogramme-2e-cycle-entrepreneuriat-scientifique-technologique",
          "area": {
             "en": "Entrepreneurship",
             "fr": "Entrepreneuriat"
@@ -709,7 +709,7 @@
       },
       {
          "institution": "École de technologie supérieure",
-         "url": "https://www.etsmtl.ca/",
+         "url": "https://www.etsmtl.ca/programmes-formations/baccalaureat-genie-logiciel",
          "area": {
             "en": "Software Engineering",
             "fr": "Génie Logiciel"
@@ -787,7 +787,7 @@
       },
       {
          "institution": "Cégep André-Laurendeau",
-         "url": "https://claurendeau.qc.ca/",
+         "url": "https://claurendeau.qc.ca/programmes/explorez-nos-programmes/techniques-de-linformatique",
          "endDate": "2010-05",
          "startDate": "2007-08",
          "area": {
@@ -853,11 +853,39 @@
    ],
    "certificates": [
       {
+         "name": "Learn DevOps: Infrastructure Automation With Terraform",
+         "url": "https://www.udemy.com/course/learn-devops-infrastructure-automation-with-terraform/",
+         "date": "2024-09-10",
+         "proof": "https://www.udemy.com/certificate/UC-9fd0722f-e01d-45d3-8f75-b47dedcf734d/",
+         "skills": [
+            {
+               "name": "DevOps",
+               "keywords": [
+                  "Terraform",
+                  "AWS"
+               ]
+            }
+         ]
+      },
+      {
+         "name": "Terraform associate",
+         "url": "https://developer.hashicorp.com/terraform/tutorials/certification-003/associate-study-003",
+         "date": "2024-08-29",
+         "proof": "https://credly.com/badges/63a9c17c-3f36-4f4f-99ab-3cc1d9e2b68f",
+         "skills": [
+            {
+               "name": "DevOps",
+               "keywords": [
+                  "Terraform"
+               ]
+            }
+         ]
+      },
+      {
          "name": "Azure Fundamentals",
-         "issuer": "Microsoft",
-         "url": "https://learn.microsoft.com/api/credentials/share/en-us/BrunoPC-3603/D20B621C382C8F05?sharingId=65A3BCD16EBB5404",
+         "url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals",
          "date": "2024-08-02",
-         "id": "D20B621C382C8F05",
+         "proof": "https://learn.microsoft.com/api/credentials/share/en-us/BrunoPC-3603/D20B621C382C8F05",
          "skills": [
             {
                "name": "DevOps",
@@ -869,10 +897,9 @@
       },
       {
          "name": "AWS Cloud Practitioner",
-         "issuer": "Amazon",
          "url": "https://aws.amazon.com/certification/exams/",
          "date": "2023-11-05",
-         "id": "e7283417-5935-4b11-b498-53169f85a385",
+         "proof": "https://credly.com/badges/e7283417-5935-4b11-b498-53169f85a385",
          "skills": [
             {
                "name": "DevOps",
@@ -887,7 +914,6 @@
             "en": "Start with React",
             "fr": "Débutez avec React"
          },
-         "issuer": "OpenClassroom",
          "url": "https://openclassrooms.com/fr/courses/7008001-debutez-avec-react",
          "date": "2023-07-21",
          "skills": [
@@ -898,14 +924,14 @@
                   "JavaScript"
                ]
             }
-         ]
+         ],
+         "display": false
       },
       {
          "name": {
             "en": "Create a Java Application with Spring Boot",
             "fr": "Créez une application avec Spring Boot"
          },
-         "issuer": "OpenClassroom",
          "url": "https://openclassrooms.com/fr/courses/6900101-creez-une-application-java-avec-spring-boot",
          "date": "2023-07-05",
          "skills": [
@@ -916,14 +942,14 @@
                   "Java"
                ]
             }
-         ]
+         ],
+         "display": false
       },
       {
          "name": "Jenkins, From Zero To Hero",
-         "issuer": "Udemy",
-         "url": "https://www.udemy.com/course/Jenkins-from-zero-to-hero/",
+         "url": "https://udemy.com/course/Jenkins-from-zero-to-hero/",
          "date": "2021-01-29",
-         "id": "UC-f5f51268-7bf8-4856-aca7-b72cfe46810e",
+         "proof": "https://udemy.com/certificate/UC-f5f51268-7bf8-4856-aca7-b72cfe46810e/",
          "skills": [
             {
                "name": "DevOps",
@@ -942,10 +968,9 @@
       },
       {
          "name": "Ansible for the absolute Beginner",
-         "issuer": "Udemy",
          "url": "https://www.udemy.com/course/learn-ansible/",
          "date": "2020-06-02",
-         "id": "UC-6a8d8088-b7d3-4070-a43a-ffb14f2e4b34",
+         "proof": "https://www.udemy.com/certificate/UC-6a8d8088-b7d3-4070-a43a-ffb14f2e4b34/",
          "skills": [
             {
                "name": "DevOps",
@@ -956,22 +981,7 @@
          ]
       },
       {
-         "name": "Learn DevOps: Infrastructure Automation With Terraform",
-         "issuer": "Udemy",
-         "url": "https://www.udemy.com/course/learn-devops-infrastructure-automation-with-terraform/",
-         "completion": "60%",
-         "skills": [
-            {
-               "name": "DevOps",
-               "keywords": [
-                  "Terraform"
-               ]
-            }
-         ]
-      },
-      {
          "name": "Docker Mastery: with Kubernetes +Swarm from a Docker Captain",
-         "issuer": "Udemy",
          "url": "https://www.udemy.com/course/Docker-mastery/",
          "completion": "54%",
          "skills": [
@@ -982,13 +992,13 @@
                   "Kubernetes"
                ]
             }
-         ]
+         ],
+         "display": false
       },
       {
          "name": "Amazon Web Services (AWS) Certified - 4 Certifications!",
-         "issuer": "Udemy",
          "url": "https://www.udemy.com/course/aws-certified-associate-architect-developer-sysops-admin/",
-         "completion": "45%",
+         "completion": "47%",
          "skills": [
             {
                "name": "DevOps",
@@ -996,7 +1006,8 @@
                   "AWS"
                ]
             }
-         ]
+         ],
+         "display": false
       }
    ],
    "interests": [
@@ -1029,7 +1040,17 @@
          "name": {
             "en": "Writing",
             "fr": "Écriture"
-         }
+         },
+         "keywords": [
+            {
+               "en": "Books, Speed Skating",
+               "fr": "Livres, patinage de vitesse"
+            },
+            {
+               "en": "Blog",
+               "fr": "Blog"
+            }
+         ]
       }
    ],
    "references": [
@@ -1344,10 +1365,10 @@
             "Vault",
             "Jenkins",
             "AutoSys Workload Automation",
-            "Azure",
-            "AWS",
-            "Ansible",
             "Terraform",
+            "AWS",
+            "Azure",
+            "Ansible",
             "GitHub Actions"
          ]
       },
