@@ -853,6 +853,23 @@
    ],
    "certificates": [
       {
+         "name": "Docker Mastery: with Kubernetes +Swarm from a Docker Captain",
+         "url": "https://www.udemy.com/course/Docker-mastery/",
+         "date": "2024-09-17",
+         "proof": "https://www.udemy.com/certificate/UC-1b0a0a1d-520c-48d4-b5c3-cbfa808d1f41/",
+         "skills": [
+            {
+               "name": "DevOps",
+               "keywords": [
+                  "Docker",
+                  "Kubernetes",
+                  "Swarm",
+                  "GitHub Actions"
+               ]
+            }
+         ]
+      },
+      {
          "name": "Learn DevOps: Infrastructure Automation With Terraform",
          "url": "https://www.udemy.com/course/learn-devops-infrastructure-automation-with-terraform/",
          "date": "2024-09-10",
@@ -964,7 +981,8 @@
                   "Bash"
                ]
             }
-         ]
+         ],
+         "display": false
       },
       {
          "name": "Ansible for the absolute Beginner",
@@ -979,21 +997,6 @@
                ]
             }
          ]
-      },
-      {
-         "name": "Docker Mastery: with Kubernetes +Swarm from a Docker Captain",
-         "url": "https://www.udemy.com/course/Docker-mastery/",
-         "completion": "54%",
-         "skills": [
-            {
-               "name": "DevOps",
-               "keywords": [
-                  "Docker",
-                  "Kubernetes"
-               ]
-            }
-         ],
-         "display": false
       },
       {
          "name": "Amazon Web Services (AWS) Certified - 4 Certifications!",
