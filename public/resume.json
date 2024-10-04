@@ -246,12 +246,6 @@
                ]
             },
             {
-               "name": "IDE",
-               "keywords": [
-                  "Visual Studio Code"
-               ]
-            },
-            {
                "name": "Version control",
                "keywords": [
                   "Git",
@@ -568,12 +562,6 @@
                "name": "Backend",
                "keywords": [
                   "C#"
-               ]
-            },
-            {
-               "name": "IDE",
-               "keywords": [
-                  "Visual Studio"
                ]
             },
             {
