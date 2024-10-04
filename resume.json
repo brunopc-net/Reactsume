@@ -67,8 +67,8 @@
    "work": [
       {
          "position": {
-            "en": "Backend Tech Lead",
-            "fr": "Lead technique Backend"
+            "en": "Principal Backend Developer",
+            "fr": "Développeur principal Backend"
          },
          "type": {
             "en": "Consulting contract",
@@ -125,7 +125,8 @@
                   "Docker",
                   "CI/CD",
                   "GitLab pipelines",
-                  "ELK stack"
+                  "ELK stack",
+                  "Prometheus"
                ]
             },
             {
@@ -153,12 +154,6 @@
                ]
             },
             {
-               "name": "IDE",
-               "keywords": [
-                  "IntelliJ"
-               ]
-            },
-            {
                "name": "Version control",
                "keywords": [
                   "Git",
@@ -173,8 +168,8 @@
       },
       {
          "position": {
-            "en": "DevOps Developer",
-            "fr": "Développeur DevOps"
+            "en": "DevSecOps Developer",
+            "fr": "Développeur DevSecOps"
          },
          "type": {
             "en": "Consulting contract",
@@ -278,7 +273,7 @@
       {
          "position": {
             "en": "SDET Tech Lead",
-            "fr": "Lead Technique en Assurance Qualité"
+            "fr": "Lead technique assurance qualité"
          },
          "type": {
             "en": "Consulting contract",
@@ -296,17 +291,21 @@
          "startDate": "2020-10",
          "endDate": "2023-06",
          "summary": {
-            "en": "Automated integration tests for PaymentHubs (Swift payment backend) and ICOP - a financial transaction security application.",
-            "fr": "Automatisé les tests d'intégration de PaymentHubs (backend des paiements Swift) et ICOP - validation de sécurité des transactions"
+            "en": "Automated integration tests for PaymentHubs (Swift payment backend), CAO (Client Account Opening) and ICOP - a financial transaction security application.",
+            "fr": "Automatisé les tests d'intégration de PaymentHubs (paiements Swift), CAO (Ouverture de comptes client) et ICOP - application de validation de sécurité des transactions"
          },
          "highlights": [
             {
-               "en": "ICOP: Improved the test velocity 800x by developing ~200 tests using Selenium & REST Assured, automating execution with Jenkins",
-               "fr": "ICOP: Multiplié la vitesse des tests par 800 en développant ~200 tests Selenium & REST Assured, autimatisant l'exécution avec Jenkins"
+               "en": "CAO: Automated test for 3 microservices with Rest Assured: CAOPB - client openning, ISRPB - Client registration, IIAPB - remote identification/authentication",
+               "fr": "CAO: Automatisé les tests de pour 3 microservices avec Rest Assured: CAOPB - ouverture de comptes, ISRPB - enregistrement client, IIAPB - identification/authentification à distance"
             },
             {
-               "en": "PaymentHub: Reduced code by 85% after building a new multi-JAR testing framework from scratch using Unirest, Lombok, Jackson, Prowide Software libraries, object inheritance, dependency injection, Gherkin, Fail-fast principle and detailed logs",
-               "fr": "PaymentHub: Réduit le code de 85% pour les tests automatisés après avoir construit un nouveau framework de test multi-JAR."
+               "en": "ICOP: Improved the test velocity 800x by developing ~200 tests using Selenium, automating execution with Jenkins",
+               "fr": "ICOP: Multiplié la vitesse des tests par 800 en développant ~200 tests Selenium, automatisant l'exécution avec Jenkins"
+            },
+            {
+               "en": "PaymentHub: Reduced code by 85% after building a new multi-JAR testing framework from scratch using Unirest, Lombok, Jackson, object inheritance, dependency injection, Gherkin, Fail-fast principle and detailed logs",
+               "fr": "PaymentHub: Réduit le code de 85% pour les tests automatisés après avoir construit un nouveau framework de test multi-JAR utilisant Unirest, Lombok, Jackson, l'héritage, l'injection de dépendences, Gherkin"
             },
             {
                "en": "Trained ~30 people within multiple QA teams on good Software architecture & test principles. Documented pipeline execution, code structure and maintenance guidance",
@@ -346,12 +345,6 @@
                ]
             },
             {
-               "name": "Scripting",
-               "keywords": [
-                  "Bash"
-               ]
-            },
-            {
                "name": "Tools/Frameworks",
                "keywords": [
                   "Jira",
@@ -371,12 +364,6 @@
                "keywords": [
                   "Git",
                   "Bitbucket"
-               ]
-            },
-            {
-               "name": "IDE",
-               "keywords": [
-                  "IntelliJ"
                ]
             },
             {
@@ -429,7 +416,8 @@
                "name": "Backend",
                "keywords": [
                   "Java",
-                  "Groovy"
+                  "Groovy",
+                  "Kafka"
                ]
             },
             {
@@ -442,13 +430,14 @@
                "name": "DevOps",
                "keywords": [
                   "ELK stack",
-                  "AutoSys Workload Automation"
+                  "AutoSys"
                ]
             },
             {
                "name": "Scripting",
                "keywords": [
-                  "PowerShell"
+                  "PowerShell",
+                  "Bash"
                ]
             },
             {
@@ -470,12 +459,6 @@
                "keywords": [
                   "Git",
                   "GitHub"
-               ]
-            },
-            {
-               "name": "IDE",
-               "keywords": [
-                  "IntelliJ"
                ]
             },
             {
@@ -549,12 +532,6 @@
                ]
             },
             {
-               "name": "IDE",
-               "keywords": [
-                  "IntelliJ"
-               ]
-            },
-            {
                "name": "Version control",
                "keywords": [
                   "Git",
@@ -583,8 +560,8 @@
          "startDate": "2013-01",
          "endDate": "2013-05",
          "summary": {
-            "en": "Database migration for the software Publisher Elements to Entity Framework ORM, automated email bug corrections, general maintenance. SCRUM development with JIRA project management software",
-            "fr": "Migration des DAO classiques à l'ORM Entity Framework, corrections de bugs pour l'envoit des courriels automatisés, maintenance générale."
+            "en": "Database migration for the software Publisher Elements to Entity Framework ORM",
+            "fr": "Migration des DAO classiques à l'ORM Entity Framework pour le logiciel d'abonnement Publisher Elements"
          },
          "skills": [
             {
@@ -631,8 +608,8 @@
             "years": 2
          },
          "summary": {
-            "en": "ServiceBPC was my own freelance company that I created to gain profesional experience during my studies. Sucessfully delivered 15 web projects.",
-            "fr": "ServiceBPC était mon entreprise pigiste que j'ai créé pour gagner de l'expérience durant mes études. Livré avec succès 15 projects web."
+            "en": "Freelance work I did to gain profesional experience during my studies. Sucessfully delivered 15 web projects.",
+            "fr": "Travail pigiste que j'ai effectué pour gagner de l'expérience durant mes études. Livré avec succès 15 projects web."
          },
          "highlights": [
             {
@@ -640,12 +617,8 @@
                "fr": "Créé plusieurs sites Web transactionnels - boutique de photographie pour Les 2 Photographes, panier d'achat modulaire Magento pour Solutions Technologies, backend de billets virtuels pour Heritage Software"
             },
             {
-               "en": "Developed an image upload/cropping module for FJB casting, a file upload module for Heritage Software",
-               "fr": "Développement d'un module de téléchargement/recadrage d'images pour figuration Julie Breton, d'un module de téléchargement de fichiers pour Heritage Software"
-            },
-            {
-               "en": "Développement d'un CMS personnalisé et refonte d'un site d'actualités basé sur Wordpress pour CADS Informatique",
-               "fr": "Developed a custom CMS & redesigned a news website based on Wordpress for CADS Informatique"
+               "en": "Developed an image upload/cropping module for FJB casting. Built a file upload module for Heritage Software. Developed a custom CMS and redesigned a Wordpress based news website for CADS Informatique.",
+               "fr": "Développé module de recadrage d'images pour figuration Julie Breton. Construit un module de téléversement de fichiers pour Heritage Software. CMS personnalisé et refonte d'un site d'actualités basé sur Wordpress pour CADS Informatique"
             }
          ],
          "skills": [
@@ -687,26 +660,6 @@
       }
    ],
    "education": [
-      {
-         "institution": "École de technologie supérieure",
-         "url": "https://www.etsmtl.ca/programmes-formations/microprogramme-2e-cycle-entrepreneuriat-scientifique-technologique",
-         "area": {
-            "en": "Entrepreneurship",
-            "fr": "Entrepreneuriat"
-         },
-         "studyType": {
-            "en": "Minor",
-            "fr": "Mineure"
-         },
-         "startDate": "2014-01",
-         "endDate": "2016-08",
-         "course_list": [
-            "ENT201 - Business financial management",
-            "ENT202 - Introduction to entrepreneurship",
-            "ENT601 - Marketing and sales",
-            "ENT602 - Company management"
-         ]
-      },
       {
          "institution": "École de technologie supérieure",
          "url": "https://www.etsmtl.ca/programmes-formations/baccalaureat-genie-logiciel",
@@ -776,13 +729,27 @@
                   "GitHub",
                   "Bitbucket"
                ]
-            },
-            {
-               "name": "IDE",
-               "keywords": [
-                  "Eclipse"
-               ]
             }
+         ]
+      },
+      {
+         "institution": "École de technologie supérieure",
+         "url": "https://www.etsmtl.ca/programmes-formations/microprogramme-2e-cycle-entrepreneuriat-scientifique-technologique",
+         "area": {
+            "en": "Entrepreneurship",
+            "fr": "Entrepreneuriat"
+         },
+         "studyType": {
+            "en": "Minor",
+            "fr": "Mineure"
+         },
+         "startDate": "2014-01",
+         "endDate": "2016-08",
+         "course_list": [
+            "ENT201 - Business financial management",
+            "ENT202 - Introduction to entrepreneurship",
+            "ENT601 - Marketing and sales",
+            "ENT602 - Company management"
          ]
       },
       {
@@ -840,12 +807,6 @@
                "keywords": [
                   "Oracle",
                   "MariaDB/MySQL"
-               ]
-            },
-            {
-               "name": "IDE",
-               "keywords": [
-                  "Eclipse"
                ]
             }
          ]
@@ -1184,8 +1145,8 @@
          "name": "Reactsume",
          "url": "https://brunopc-net.github.io/Reactsume",
          "summary": {
-            "en": "React based resume with custom themes and multilanguage support ",
-            "fr": "CV en ligne multilangues avec support de thèmes basé sur React"
+            "en": "React based resume One Pager",
+            "fr": "One Pager de CV basé sur React"
          },
          "skills": [
             {
@@ -1205,12 +1166,6 @@
                "name": "DevOps",
                "keywords": [
                   "GitHub Actions"
-               ]
-            },
-            {
-               "name": "IDE",
-               "keywords": [
-                  "Visual Studio Code"
                ]
             }
          ]
@@ -1220,7 +1175,7 @@
          "url": "https://brunopc-net.github.io/Horus",
          "summary": {
             "en": "A Node.js/React short term weather report",
-            "fr": "Application météo court terme en React/Node.js"
+            "fr": "Application météo React/Node.js"
          },
          "skills": [
             {
@@ -1240,12 +1195,6 @@
                "name": "DevOps",
                "keywords": [
                   "GitHub Actions"
-               ]
-            },
-            {
-               "name": "IDE",
-               "keywords": [
-                  "Visual Studio Code"
                ]
             }
          ]
@@ -1274,8 +1223,8 @@
       {
          "name": "Cerberus",
          "summary": {
-            "en": "A Python file backup application",
-            "fr": "Application de sauvegarde de fichiers en Python"
+            "en": "A Python file backup script",
+            "fr": "Script Python de sauvegarde de fichiers"
          },
          "skills": [
             {
@@ -1289,12 +1238,6 @@
                "keywords": [
                   "Docker",
                   "Jenkins"
-               ]
-            },
-            {
-               "name": "IDE",
-               "keywords": [
-                  "Pycharm"
                ]
             }
          ]
@@ -1317,98 +1260,7 @@
                "keywords": [
                   "Redis"
                ]
-            },
-            {
-               "name": "IDE",
-               "keywords": [
-                  "Pycharm"
-               ]
             }
-         ]
-      }
-   ],
-   "skills": [
-      {
-         "name": "Backend",
-         "keywords": [
-            "Spring Boot",
-            "Java",
-            "Tibco",
-            "Kafka",
-            "MQ",
-            "Groovy",
-            "C#",
-            "PHP",
-            "C/C++",
-            "Node.js",
-            "Python"
-         ]
-      },
-      {
-         "name": "Backend QA",
-         "keywords": [
-            "Cucumber",
-            "JUnit",
-            "Mockito",
-            "Wiremock",
-            "REST Assured",
-            "Spock",
-            "PHPUnit"
-         ]
-      },
-      {
-         "name": "DevOps",
-         "keywords": [
-            "Docker",
-            "CI/CD",
-            "GitLab pipelines",
-            "ELK stack",
-            "Helm",
-            "Kubernetes",
-            "Vault",
-            "Jenkins",
-            "AutoSys Workload Automation",
-            "Swarm",
-            "GitHub Actions",
-            "Terraform",
-            "AWS",
-            "Azure",
-            "Ansible"
-         ]
-      },
-      {
-         "name": "Frontend",
-         "keywords": [
-            "JavaScript",
-            "jQuery",
-            "CSS",
-            "HTML",
-            "React",
-            "Docusaurus",
-            "MDX"
-         ]
-      },
-      {
-         "name": "Frontend QA",
-         "keywords": [
-            "Cypress",
-            "HtmlUnit",
-            "Selenium",
-            "Saucelabs",
-            "QUnit"
-         ]
-      },
-      {
-         "name": "Databases",
-         "keywords": [
-            "PostgreSQL",
-            "Flyway",
-            "H2",
-            "NoSQL",
-            "SQL Server",
-            "Oracle",
-            "MariaDB/MySQL",
-            "Redis"
          ]
       }
    ]
