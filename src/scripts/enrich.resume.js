@@ -28,7 +28,7 @@ function enrichResume(){
     resume.basics.experience = getTotalXp(xpTotalMonths);
     
     //Enrich skills
-    resume.skills = new SkillExtractor(resume).extract();
+    //resume.skills = new SkillExtractor(resume).extract();
 
     fs.writeFileSync(resume_path,
         JSON.stringify(resume, null, 3)
